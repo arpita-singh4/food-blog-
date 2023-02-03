@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>theme</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<link href="fonts/css/all.css" rel="stylesheet">  
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+</head>
+	<style type="text/css">
+		body
+		{
+			background-image: url(image/dif-col.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 100vh;
+			font-weight: 600px;
+
+		}
+		.header-part
+		{
+			background-image: none;
+		}
+		.header-headings
+		{
+			text-align: center;
+			padding: 20px;
+			font-size: 4vw;
+			color: white;			
+		}
+
+		.container
+		{
+			display: flex;
+		}
+		.panel
+		{
+			margin: 40px;
+			padding: 20px;
+			display:flex;
+			flex-flow: column;
+			background-color:#ccc;
+			cursor: pointer;
+		}
+		.service-image
+		{
+			display: block;
+		}
+		@media screen and (max-width: 1100px) and (min-width: 300px)
+		{
+			.container
+			{
+				display: flex;
+				flex-flow: column;
+			}
+		}
+
+		
+	</style>
+</head>
+<body>
+	<header class="header-part">
+      		<div class="navigation-bar">
+				<a href="index.html"> Home </a>
+				<a href="about.html"> About </a>
+				<a href="service.html"> Services</a>
+				<a href="recipe.html"> Recipe </a>
+				<a href="contact.html"> Contact</a>
+
+			</div>
+			<div>
+				<i class="fas fa-shopping-cart"></i>
+				<i class="fas fa-utensils"></i>
+			</div>
+				<div class="header-headings">
+
+				<h1> 
+					our  services
+				</h1>
+				
+			</div>	
+		
+		</header>
+
+		
+	<div class="container">
+		
+		<div class="panel">
+			<div class="service-image">
+				<img src="image/k.jpg" width="100%" height="auto">
+			</div>
+			<h1>01</h1>
+			<h3>service one</h3>
+			<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores rem quisquam est id blanditiis, nihil et fugiat nesciunt quae deleniti.</p>
+		</div>
+		<div class="panel">
+			<div class="service-image">
+				<img src="image/p.png" width="100%" height="auto">
+			</div>
+			<h1>02</h1>
+			<h3>service one</h3>
+			<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores rem quisquam est id blanditiis, nihil et fugiat nesciunt quae deleniti.</p>
+		</div>
+		<div class="panel">
+			<div class="service-image">
+				<img src="image/l.png" width="100%" height="auto">
+			</div>
+			<h1>02</h1>
+			<h3>service one</h3>
+			<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores rem quisquam est id blanditiis, nihil et fugiat nesciunt quae deleniti.</p>
+		</div>
+	</div>
+
+</body>
+</html>
